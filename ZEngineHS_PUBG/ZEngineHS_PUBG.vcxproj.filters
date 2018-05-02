@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Interface">
+      <UniqueIdentifier>{44971a6b-73a3-4313-bf47-51753be7f9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Interface">
+      <UniqueIdentifier>{f436d465-9245-40ec-8005-7b089bf0c80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SDK">
+      <UniqueIdentifier>{fd8dc532-87eb-4201-902b-29b70d2db226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\SDK">
+      <UniqueIdentifier>{3f9a1398-d56c-4d7d-a453-cd4bbcc575a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -21,12 +33,57 @@
     <ClInclude Include="targetver.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Файлы заголовков\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Файлы заголовков\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Файлы заголовков\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKExtension.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKHeader.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXState.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="ZEngineHS_PUBG.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>Исходные файлы\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Исходные файлы\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Исходные файлы\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKExtension.cpp">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXState.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
